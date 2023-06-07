@@ -15,10 +15,10 @@ namespace Conversor
                 try
                 {
                     convd.dolar = float.Parse(Console.ReadLine());
-                    Console.WriteLine(convd.Dolares());
+                    Console.WriteLine(convd.dolar + " Dólares son " + convd.Dolares() + " Pesos colombianos");
                 }
                 
-                catch(FormatException e)
+                catch(FormatException)
                 {
                     Console.WriteLine("igrese un valor válido");
                 }
@@ -29,7 +29,7 @@ namespace Conversor
 
     class Conversor
     {
-        public float dolar = 0;
+        public float dolar;
         public float pesos = 4.214f;
         public float Dolares()
         {
