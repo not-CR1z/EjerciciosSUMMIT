@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Conversor
+namespace Conversor 
 {
     class Program
     {
