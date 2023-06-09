@@ -11,7 +11,7 @@ namespace Conversor
             while (convd.dolar >= 0)
             {
                 Console.WriteLine("Por favor ingrese el valor de dólares a convertir");
-
+                    
                 try
                 {
                     convd.dolar = float.Parse(Console.ReadLine());
