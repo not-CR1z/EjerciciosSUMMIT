@@ -5,8 +5,6 @@
         static void Main(string[] args)
         {
 
-
-
             Circulo MiCirculo = new Circulo(); //Objeto clase circulo
 
             Cuadrado MiCuadrado = new Cuadrado(); //objeto clase cuadrado
@@ -21,7 +19,7 @@
             while (calculo <= 4)
             {
                 Console.WriteLine("\nCALCULADORA DE MAGNITUDES");
-                Console.WriteLine("\n 1.Calcular área de un circulo\n 2.Calcular área del cuadrado\n 3.Calcular área de un cubo\n 4.Calcular la hipotenusa");
+                Console.WriteLine("\n 1.Calcular área de un circulo\n 2.Calcular área del cuadrado\n 3.Calcular área de un cubo\n 4.Calcular la hipotenusa\n 5.Salir");
 
                 calculo = int.Parse(Console.ReadLine());
 
@@ -49,14 +47,14 @@
                         Console.WriteLine(distanciaCa.Iniatialize());
                         break;
 
+                    case 5:
+                        break;
+
                     default:
                         Console.WriteLine("seleción inválida");
                         break;
                 }
-                }
-
-            } 
-
-            
+            }
+        }
     }
 }
