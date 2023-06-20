@@ -1,4 +1,4 @@
-﻿class Cuadrado
+﻿class Cuadrado 
 {
     string calculoArea()
     {

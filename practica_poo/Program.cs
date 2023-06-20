@@ -4,7 +4,6 @@
     {
         static void Main(string[] args)
         {
-
             Circulo MiCirculo = new Circulo(); //Objeto clase circulo
 
             Cuadrado MiCuadrado = new Cuadrado(); //objeto clase cuadrado
