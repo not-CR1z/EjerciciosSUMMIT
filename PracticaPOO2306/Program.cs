@@ -4,10 +4,13 @@
     {
         static void Main(string[] args)
         {
+            //Encuentros Cuartos de final
             string[] match1 = { "Argentina", "Venezuela" };
             string[] match2 = { "Brasil", "Chile" };
             string[] match3 = { "Colombia", "Perú" };
             string[] match4 = { "Bolivia", "Ecuador" };
+
+            //Afición
 
 
 
@@ -54,7 +57,6 @@
 
             S2.selecciones = semis2;
             string finalista2 = S2.Jugando();
-            Console.WriteLine($"Avanza {finalista2}");
             Console.WriteLine($"Avanza {finalista2}");
 
 

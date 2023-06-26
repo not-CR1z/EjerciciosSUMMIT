@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simulador de partidos", "Simulador de partidos.csproj", "{34E77A35-4A24-4F46-82F5-D81DC0786A98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCap2", "WPFCap2.csproj", "{E0CC3D79-B6D4-478F-8ECF-CF36024A6568}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{34E77A35-4A24-4F46-82F5-D81DC0786A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34E77A35-4A24-4F46-82F5-D81DC0786A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34E77A35-4A24-4F46-82F5-D81DC0786A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34E77A35-4A24-4F46-82F5-D81DC0786A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0CC3D79-B6D4-478F-8ECF-CF36024A6568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CC3D79-B6D4-478F-8ECF-CF36024A6568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CC3D79-B6D4-478F-8ECF-CF36024A6568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CC3D79-B6D4-478F-8ECF-CF36024A6568}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6871BD35-3B38-4886-86DE-2B1005F82F16}
+		SolutionGuid = {6FED5FBA-1D75-4916-A6B9-8E6545C07827}
 	EndGlobalSection
 EndGlobal
