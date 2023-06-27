@@ -6,7 +6,15 @@
         xmlns:local="clr-namespace:WPFCap2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+
+    <StackPanel Name="Panel" PreviewMouseLeftButtonDown="Panel_PreviewMouseLeftButtonDown">
+        <Button x:Name="botonAceptar" Content="Aceptar" Click="botonAceptar_Click" HorizontalAlignment="Left" Height="32" Margin="551,365,0,0" VerticalAlignment="Top" Width="87" BorderThickness="4,1,1,3" BorderBrush="#FF579C97" FontFamily="Calibri" Foreground="White" FontStyle="Italic" FontWeight="DemiBold" FontStretch="SemiExpanded">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1">
+                    <GradientStop Color="#FF55ABA5"/>
+                    <GradientStop Color="#FF8AD4CF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </StackPanel>
 </Window>

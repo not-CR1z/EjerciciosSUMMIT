@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPFCap2
+namespace WPFCap5_GridPanel
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,21 +23,6 @@ namespace WPFCap2
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void botonAceptar_Click(object sender, RoutedEventArgs e)
-        {
-            Console.WriteLine("Presionaste Aceptar");
-        }
-
-        //private void Panel_Click(object sender, RoutedEventArgs e)
-        //{
-        //    Console.WriteLine("Presionaste el Panel");
-        //}
-
-        private void Panel_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            Console.WriteLine("Presionaste el Panel");
         }
     }
 }

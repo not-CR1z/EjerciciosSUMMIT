@@ -1,0 +1,81 @@
+﻿<Window x:Class="WPFCap5_GridPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCap5_GridPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        
+        </Grid.RowDefinitions>
+        
+        <Button>Posición 1</Button>
+        <Button Grid.Column="1">Posición 2</Button>
+        <Button Grid.Column="2">Posición 3</Button>
+        <Button Grid.Column="3">Posición 4</Button>
+
+        <Button Grid.Row="1">Posición 5</Button>
+        <Button Grid.Row="1" Grid.Column="1">Posición 6</Button>
+        <Button Grid.Row="1" Grid.Column="2">Posición 7</Button>
+        <Button Grid.Row="1" Grid.Column="3">Posición 8</Button>
+
+
+        <Button Grid.Row="2">Posición 9</Button>
+        <Button Grid.Row="2" Grid.Column="1">Posición 10</Button>
+        <Button Grid.Row="2" Grid.Column="2">Posición 11</Button>
+        <Button Grid.Row="2" Grid.Column="3">Posición 12</Button>
+
+        <TextBlock Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Pocisiones de un GREED" FontSize="28"></TextBlock>
+
+        <Grid Grid.Column="0" Grid.Row="3">
+
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0">Col1</Button>
+            <Button Grid.Column="1">Col2</Button>
+            <Button Grid.Column="2">Col3</Button>
+            <Button Grid.Column="3">Col4</Button>
+            
+        </Grid>
+
+        <Grid Grid.Column="3" Grid.Row="3">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+
+            </Grid.RowDefinitions>
+
+            <Button Grid.Row="0">Fila 1</Button>
+            <Button Grid.Row="1">Fila 2</Button>
+            <Button Grid.Row="2">Fila 3</Button>
+            <Button Grid.Row="3">Fila 4</Button>
+            
+        </Grid>
+        
+    </Grid>
+</Window>
